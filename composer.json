@@ -1,0 +1,26 @@
+{
+    "name": "stefa/php-router",
+    "description": "router library php",
+    "type": "library",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Stefa\\PhpRouter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stefa\\PhpRouter\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shano1993",
+            "email": "stefan.hanotiau@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
